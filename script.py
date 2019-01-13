@@ -6,7 +6,8 @@ outfile = open('results.txt','a')
 for img in os.listdir('images'):
     if img.endswith('.jpg'):
         fn, fext = os.path.splitext(img)
-        outfile.write(ana(fn) + '\n')   
+        loc = fn[0]
+        time = f[1:]
+        outfile.write(ana(fn) + loc + ',' + time + '\n')   
 
 outfile.close()
-        #writing to text file has errors
