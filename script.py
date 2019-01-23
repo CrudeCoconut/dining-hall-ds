@@ -1,7 +1,8 @@
+import pandas as pd
 from imgD import ana
 import os
 
-outfile = open('results.txt','a')
+df = pd.DataFrame([],columns = ['Location','Date','Time','People'])
 
 for img in os.listdir('images'):
     if img.endswith('.jpg'):
@@ -10,6 +11,6 @@ for img in os.listdir('images'):
         sep = fn.find('T')
         date = fn[1:sep]
         time = fn[sep+1:]
-        outfile.write( loc + ',' + date + ',' + time + '\n' + ana(fn) + '\n')   
+        df = df.append({'Location': loc,'Date': date,'Time':time,'People': ana(fn)}, ignore_index=True)
 
-outfile.close()
+df.to_csv('results.csv')
