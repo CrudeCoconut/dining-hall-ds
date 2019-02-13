@@ -1,1 +1,2 @@
-ignore/yolo.h5
+# Model
+*.h5
