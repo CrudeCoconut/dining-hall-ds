@@ -4,13 +4,14 @@ import os
 
 df = pd.DataFrame([],columns = ['Location','Date','Time','People'])
 
-for img in os.listdir('images'):
-    if img.endswith('.jpg'):
-        fn, fext = os.path.splitext(img)
-        loc = fn[0]
-        sep = fn.find('T')
-        date = fn[1:sep]
-        time = fn[sep+1:]
-        df = df.append({'Location': loc,'Date': date,'Time':time,'People': ana(fn)}, ignore_index=True)
+while True:
+        for img in os.listdir('images'):
+                if img.endswith('.jpg'):
+                        fn, fext = os.path.splitext(img)
+                        loc = fn[0]
+                        sep = fn.find('T')
+                        date = fn[1:sep]
+                        time = fn[sep+1:]
+                        df = df.append({'Location': loc,'Date': date,'Time':time,'People': ana(fn)}, ignore_index=True)
 
 df.to_csv('results.csv')

@@ -2,8 +2,16 @@
 
 UCSB Dining Hall Data Science Project
 
-need image ai library and yolov3 model for AI stuff and ucsb mealtime to pull images
+Quantify trends in student dining, most importantly relative popularity by time.
 
-https://github.com/OlafenwaMoses/ImageAI/tree/master/imageai/Detection
+	
+Dependencies:
+ImageAI
+https://github.com/OlafenwaMoses/ImageAI
 
+YoloV3 (place in dining-hall-ds directory):
+https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5
+
+
+Image acquisition is thanks to the UCSB Mealtime project by Tim Nguyen:
 https://github.com/timothydnguyen/ucsb-mealtime

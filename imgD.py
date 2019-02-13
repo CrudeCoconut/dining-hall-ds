@@ -16,6 +16,3 @@ def ana(In):
                 if(str(eachObject["name"]) == 'person' and float(eachObject["percentage_probability"]) > 0.7):
                         x = x + 1
         return(x)
-
-        
-
