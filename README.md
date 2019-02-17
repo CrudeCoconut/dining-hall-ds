@@ -23,13 +23,14 @@ Motivation
 ==========
 
 
-Methodology-
+Methodology
 =============
 
 # Getting Started in Python
 
 
 ## Importing the Required Libraries
+
 ```for script
 import pandas as pd
 from imgD import ana
