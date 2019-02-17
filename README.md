@@ -35,7 +35,7 @@ Methodology
 import pandas as pd
 from imgD import ana
 import os
-
+```
 ```for imgD
 from imageai.Detection import ObjectDetection
 import os
