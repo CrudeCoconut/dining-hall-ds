@@ -3,7 +3,7 @@ from imgD import ana
 import os
 
 df = pd.DataFrame([],columns = ['Location','Date','Time','People'])
-df.to_csv('results.csv',index=False)
+df.to_csv('results.csv', mode='a', index = True, header = True)
 
 while True:
     for img in os.listdir('images'):
