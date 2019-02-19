@@ -3,7 +3,7 @@ from imgD import ana
 import os
 
 df = pd.DataFrame([],columns = ['Location','Date','Time','People'])
-df.to_csv('results.csv',index=False)
+df.to_csv('results.csv')
 
 while True:
     for img in os.listdir('images'):
@@ -14,6 +14,6 @@ while True:
                 sep = fn.find('T')
                 date = fn[1:sep]
                 time = fn[sep+1:]
-                df = df.append({'Location': loc,'Date': date,'Time':time,'People': ana(fn)}, ignore_index=True)
-    df.to_csv('results.csv', mode='a', index = False, header = False)
+                df = df.append({'Location': loc,'Date': date[4:]+'-'+ date[2:4]+'-'+date[:2],'Time':time,'People': ana(fn)}, ignore_index=True)
+    df.to_csv('results.csv', mode='a', header = False)
     df = pd.DataFrame([],columns = ['Location','Date','Time','People'])
