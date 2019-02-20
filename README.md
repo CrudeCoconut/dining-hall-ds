@@ -13,7 +13,8 @@ Contributors
 Motivation
 ==========
 Frustrated of waiting in long lines at dining halls. Will you like to know when they are less busy?
-
+<img src=https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/93d1c681483b130b5f1c72ed2cbadb2b.jpg'       We are too.                                                                                                                          
+                                                                                                                               
 Dependencies
 =============
 ImageAI
@@ -29,12 +30,15 @@ https://github.com/timothydnguyen/ucsb-mealtime
 
 Methodology
 ==========
-Informing students about the relative popularity of each dining hall.
+Objective: Informing students about the relative popularity of each dining hall.
+
 
 Graphing Data
 =============
-<img src = 'https://imgur.com/XsAisbY' >
-
+Sample Carillo Histogram Data:
+<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Figure_1.png'>
+Sample Ortega Scatter Data:
+<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Figure_4.png'>
 
 Future Work
 =============
