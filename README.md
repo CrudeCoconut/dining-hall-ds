@@ -13,8 +13,8 @@ Contributors
 
 Motivation
 ==========
-Frustrated of waiting in long lines at dining halls? Wouldn't you like to know when they are less busy?
-<img src='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/93d1c681483b130b5f1c72ed2cbadb2b.jpg'>      
+Frustrated of waiting in long lines at the UCSB dining halls? Wouldn't you like to know when they are less busy?
+<img src='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/93d1c681483b130b5f1c72ed2cbadb2b.jpg'>     
 
 We do too.                                                                                                                          
                                                                                                                                
@@ -35,19 +35,22 @@ Methodology
 ==========
 Objective: Informing students about the relative popularity of each dining hall.
 First, the UCSB Mealtime library pulls images from the cameras of Carillo, DLG, and Ortega dining halls.
-Next, our script uses ImageAI and the Yolo model to count the number of people in a frame, and outputs
-this data to a CSV. Now we can use statistical analysis to compare the current count of humans to a 
-moving average, and find correlations between popularity and other factors.
+Next, our script uses ImageAI and the Yolo model to count the number of people in every image, and outputs
+this data to a CSV. We then can use statistical analysis to compare the current count of humans to a 
+moving average, and find correlations between popularity and other factors using Sklearn trees.
 
 <img src = 'https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/c021219T195554new.jpg'>
 
 
 Graphing Data
 =============
-Sample Ortega Scatter Data:
+This is a scatterplot of data generated from a set of images from 20:00 to 20:25 military time(8:00 to 8:25 pm):
 
+<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/scatter.png'>
 
-<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Figure_4.png'>
+A cleaner representation of the data can be shown in the form of a histogram with variable time and people as weights:
+
+<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Histogram.png'>
 
 Future Work
 =============
