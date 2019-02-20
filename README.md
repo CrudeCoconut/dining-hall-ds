@@ -3,7 +3,7 @@ UCSB Dining Hall Data Science Project
 
 Abstract
 ==========
-Quantify trends in student dining, most importantly relative popularity by time.
+The goal of this project is to quantify trends from dining common camera data and give an accurate prediction of the number of people at each of the three locations (Carillo, DLG, and Ortega) and its relative popularity at a given time. This is accomplished through the dining cams API pulling images via the UCSB mealtime project, the ImageAI library and yolov3 model performing image detection on the images, and then using pandas and matplotlib to analyze the output data from a CSV. 
 
 Contributors 
 ==========
@@ -51,7 +51,6 @@ Sample Ortega Scatter Data:
 
 Future Work
 =============
-Method to count people in vs. out with frame to frame analysis for more accurate popularity tracking.
-Correlations between weather, menu items, day/time, etc. will be analyzed.
-Eventually the script will update live to a web interface to give an estimated relative popularity and 
-predicted number of people in line.
+-   Method to track individuals to tell who is leaving or entering in order to improve data accuracy (foviated vision)
+-   Create web interface that shows live relative popularity and predicted people in line
+-   Explore correlations between popularity and weather, day/time, menu items, etc.
