@@ -44,10 +44,13 @@ moving average, and find correlations between popularity and other factors.
 
 Graphing Data
 =============
-Sample Ortega Scatter Data:
+This is a scatterplot of some of our data from 20:00 to 20:25 military time, so 8:00 to 8:25 pm in UCSB dining halls:
 
+<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/scatter.png'>
 
-<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Figure_4.png'>
+A better way to see the data is a histogram that plots the variable of time with people as the weights.
+
+<img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Histogram.png'>
 
 Future Work
 =============
