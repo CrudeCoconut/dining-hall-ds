@@ -13,7 +13,7 @@ Contributors
 Motivation
 ==========
 Frustrated of waiting in long lines at dining halls. Will you like to know when they are less busy?
-<img src=https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/93d1c681483b130b5f1c72ed2cbadb2b.jpg'       We are too.                                                                                                                          
+<img src=https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/93d1c681483b130b5f1c72ed2cbadb2b.jpg'>       We are too.                                                                                                                          
                                                                                                                                
 Dependencies
 =============
