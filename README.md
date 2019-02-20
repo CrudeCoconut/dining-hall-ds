@@ -39,6 +39,8 @@ Next, our script uses ImageAI and the Yolo model to count the number of people i
 this data to a CSV. Now we can use statistical analysis to compare the current count of humans to a 
 moving average, and find correlations between popularity and other factors.
 
+<img src = 'https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/c021219T195554new.jpg'>
+
 
 Graphing Data
 =============
