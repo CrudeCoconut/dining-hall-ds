@@ -38,6 +38,8 @@ Objective: Informing students about the relative popularity of each dining hall.
 Graphing Data
 =============
 Sample Ortega Scatter Data:
+
+
 <img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Figure_4.png'>
 
 Future Work
