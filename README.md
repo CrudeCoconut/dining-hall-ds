@@ -12,7 +12,7 @@ Contributors
 
 Motivation
 ==========
-Frustrated of waiting in long lines at dining halls. Will like to know when they are less busy.
+Frustrated of waiting in long lines at dining halls. Will you like to know when they are less busy?
 
 Dependencies
 =============
@@ -29,10 +29,12 @@ https://github.com/timothydnguyen/ucsb-mealtime
 
 Methodology
 ==========
-Informing about the relative popularity of each dining hall.
+Informing students about the relative popularity of each dining hall.
 
 Graphing Data
 =============
+<img src = 'https://imgur.com/a/K3a4Ana' >
+
 
 Future Work
 =============
