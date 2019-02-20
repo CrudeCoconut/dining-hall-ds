@@ -33,7 +33,7 @@ Informing students about the relative popularity of each dining hall.
 
 Graphing Data
 =============
-<img src = 'https://imgur.com/a/K3a4Ana' >
+<img src = 'https://imgur.com/XsAisbY' >
 
 
 Future Work
