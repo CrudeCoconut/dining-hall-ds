@@ -44,11 +44,11 @@ moving average, and find correlations between popularity and other factors using
 
 Graphing Data
 =============
-This is a scatterplot of data generates from 20:00 to 20:25 military time(8:00 to 8:25 pm):
+This is a scatterplot of data generated from a set of images from 20:00 to 20:25 military time(8:00 to 8:25 pm):
 
 <img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/scatter.png'>
 
-A cleaner representation of the data ican be shown in the form of a histogram with variable time and people as weights:
+A cleaner representation of the data can be shown in the form of a histogram with variable time and people as weights:
 
 <img src ='https://github.com/dining-hall-warriors/dining-hall-ds/blob/master/figure-markdown/Histogram.png'>
 
