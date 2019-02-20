@@ -28,4 +28,4 @@ if __name__ == '__main__':
                 print('saved image {}'.format(image_save_path))
             else:
                 print('{} is not open'.format(dining_hall))
-        time.sleep(0)
+        time.sleep(5)
