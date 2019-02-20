@@ -1,11 +1,11 @@
 UCSB Dining Hall Data Science Project
 
 Abstract
---------
+==========
 Quantify trends in student dining, most importantly relative popularity by time.
 
-Contributors
-------------
+Contributors 
+==========
 -   Alex Lai
 -   Matt Luckenbihl
 -   Roy Luengas
