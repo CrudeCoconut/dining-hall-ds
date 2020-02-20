@@ -1,13 +1,5 @@
-# USAGE
-# To read and write back out to video:
-# python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
-#	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4 \
-#	--output output/output_01.avi
-#
-# To read from webcam and write back out to disk:
-# python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
-#	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
-#	--output output/webcam_output.avi
+#experimental people tracking code taken from https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/
+#and adapted to fit live camera api
 
 # import the necessary packages
 from pyimagesearch.centroidtracker import CentroidTracker
@@ -25,23 +17,6 @@ import pandas as pd
 import time 
 import datetime
 import dining_hall_cams as cams
-
-# construct the argument parse and parse the arguments
-# ap = argparse.ArgumentParser()
-# ap.add_argument("-p", "--prototxt", required=True,
-# 	help="path to Caffe 'deploy' prototxt file")
-# ap.add_argument("-m", "--model", required=True,
-# 	help="path to Caffe pre-trained model")
-# ap.add_argument("-i", "--input", type=str,
-# 	help="path to optional input video file")
-# ap.add_argument("-o", "--output", type=str,
-# 	help="path to optional output video file")
-# ap.add_argument("-c", "--confidence", type=float, default=0.4,
-# 	help="minimum probability to filter weak detections")
-# ap.add_argument("-s", "--skip-frames", type=int, default=30,
-# 	help="# of skip frames between detections")
-# args = vars(ap.parse_args())
-
 
 def record(dining_hall, src,output,sf):
 	args = {
